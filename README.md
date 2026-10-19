@@ -40,12 +40,10 @@ java -cp out kenken.KenKenApp puzzle_files/3x3_1.txt
 
 The starter smoke test should pass. Until the solver TODOs are complete, the application may print `Solved: false`; that is expected.
 
-## GitHub Classroom workflow
-
-Your instructor should provide a GitHub Classroom assignment link. Accept the link while signed in to your GitHub account, wait for Classroom to create your private repository, then clone that repository:
+## GitHub workflow
 
 ```bash
-git clone https://github.com/YOUR-CLASSROOM-ORGANIZATION/YOUR-ASSIGNED-REPOSITORY.git
+git clone (https://github.com/fzj0007/cs2400-Assignment-2.git)
 cd YOUR-ASSIGNED-REPOSITORY
 ```
 
