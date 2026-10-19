@@ -43,7 +43,7 @@ The starter smoke test should pass. Until the solver TODOs are complete, the app
 ## GitHub workflow
 
 ```bash
-git clone https://github.com/YOUR-CLASSROOM-ORGANIZATION/YOUR-ASSIGNED-REPOSITORY.git
+git clone [https://github.com/YOUR-CLASSROOM-ORGANIZATION/YOUR-ASSIGNED-REPOSITORY.git](https://github.com/fzj0007/cs2400-Assignment-2.git)
 cd YOUR-ASSIGNED-REPOSITORY
 ```
 
