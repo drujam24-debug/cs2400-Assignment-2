@@ -13,15 +13,15 @@ public final class KenKenSmokeTest {
     }
 
     private static void testBoard() {
-        Board board = new Board(2);
-        Cell cell = new Cell(0, 1);
+        Board board = new Board(2); 
+        Cell cell = new Cell(0, 1); 
         board.set(cell, 2);
         assert board.get(cell) == 2;
         assert !board.isComplete();
     }
 
     private static void testParser() throws Exception {
-        PuzzleParser.PuzzleData puzzle = PuzzleParser.parse(Path.of("puzzle_files/3x3_1.txt"));
+        PuzzleParser.PuzzleData puzzle = PuzzleParser.parse(Path.of("puzzle_files/3x3_1.txt"));//new code add to notes, path.
         assert puzzle.size() == 3;
         assert puzzle.cages().size() == 5;
     }
